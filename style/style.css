@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.conteiner {
+    width: 100%;
+    height: 100vh;
+    border: 1px solid #000;
+}
+
+.conteiner .b {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    height: 100px;
+}
+
+.conteiner .b .box:hover {
+    background-color: red;
+}
+.conteiner .b .box2:hover {
+    background-color: rgb(0, 17, 255);
+}
+
+.conteiner .b .box {
+    width: 150px;
+    height: 50px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 55px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    transition: .4s all linear;
+}
+
+.conteiner .b .box2 {
+    width: 150px;
+    height: 50px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 55px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    transition: .4s all linear;
+}
+
+.conteiner .content {
+    width: 100%;
+    height: 75%;
+    display: flex;  
+}
+
+.conteiner .content .left {
+    margin: 0 auto;
+    width: 45%;
+    height: 100%;
+    border: 2px solid #000;
+    border-radius: 15px;
+    padding: 100px 40px;
+    display: grid;
+    gap: 30px;
+    position: relative;
+
+}
+.conteiner .content .right {
+    width: 45%;
+    height: 100%;
+    border: 2px solid #000;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 100px 40px;
+    display: grid;
+    gap: 30px;
+    position: relative;
+}
+
+.conteiner .item {
+    width: 100%;
+    height: 170px;
+    border: 4px solid #000;
+    border-radius: 20px;
+    padding: 5px 25px;
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    top: 10px;
+    left: 250px;
+}
+
+p {
+    /* text-align: center; */
+    padding-top: 15px;
+    font-size: 27px;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding-top: 10px;
+}
+
+.conteiner .plyus {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: .4s all linear;
+    border: none;
+}
+
+.conteiner .plyus:hover {
+    background-color: blue;
+}
+
+.conteiner .minus:hover {
+    background-color: red;
+}
+
+.conteiner .minus {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: .4s all linear;
+    border: none;
+}
+
+.conteiner .count10 {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    right: 25px;
+}
